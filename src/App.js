@@ -1,11 +1,12 @@
 import React from 'react';
-import { Routes, Route, Link } from 'react-router-dom';
+import { Routes, Route, Link} from 'react-router-dom';
+
 import { Layout, Typography, Space } from 'antd';
 import { Navbar, Homepage, Exchanges, Cryptocurrencies, News, CryptoDetails } from './components';
 
 import './App.css';
 
-const App = () => {
+const App = () => {;
   return (
     <div>
       <div className="app">
@@ -16,11 +17,11 @@ const App = () => {
           <Layout>
             <div className="routes">
               <Routes>
-                <Route exact path="/" element={<Homepage />} />
-                <Route exact path="/exchanges" element={<Exchanges />} />
-                <Route exact path="/cryptocurrencies" element={<Cryptocurrencies />} />
-                <Route exact path="/crypto/:coinId" element={<CryptoDetails />} />
-                <Route exact path="/news" element={<News />} />
+                <Route path="/" element={<Homepage />} />
+                <Route path="/exchanges" element={<Exchanges />} />
+                <Route path="/cryptocurrencies" element={<Cryptocurrencies />} />
+                <Route path="/crypto/:coinId" element={<CryptoDetails />} />
+                <Route path="/news" element={<News />} />
               </Routes>
             </div>
           </Layout>
