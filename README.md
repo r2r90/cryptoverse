@@ -1,5 +1,29 @@
 # Getting Started with Create React App
+******************************************************
+🔥
+Includes features like :  👇
 
+Information Regarding 100 cryptocurrencies
+
+Line chart showing change in price over different period of time
+
+Useful links related to different coins
+
+News regarding different coins
+
+Information regarding available exchanges
+
+Build Using 
+
+React.js🔥
+
+Redux toolkit🔥
+
+Rapid Apis🔥
+
+Ant design🔥
+
+*******************************************************
 ![Crypto1](https://user-images.githubusercontent.com/97596287/190496241-86b73e45-8df3-432e-b509-70ffa57b1524.png)
 ![crypto2](https://user-images.githubusercontent.com/97596287/190496244-83a66a83-36cd-4248-8e57-14c494727c57.png)
 ![crypto3](https://user-images.githubusercontent.com/97596287/190496251-a27480cf-9da0-4f63-991f-c05fbc6dc7b9.png)
